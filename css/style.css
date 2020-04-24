@@ -1,0 +1,409 @@
+body {
+    margin: 0 auto;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*========HEADER==========
+ ========================*/
+
+.header {
+    background: url(../img/header-fon.png) no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+}
+
+.content-stop {
+    width: 83%;
+    margin: 110px auto 0;
+}
+
+.header-stop {
+    width: 83%;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.header-text:hover {
+    transform: scale(1.3);
+}
+
+.header-menu {
+    width: 758px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 73px;
+    margin: 0 auto;
+}
+
+.header-menu a {
+    text-decoration: none;
+    color: white;
+    transition: .8s;
+    outline: none;
+}
+
+.header-text {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.camera {
+    margin-top: -33px;
+    transition: .8s;
+}
+
+.camera:hover {
+    transform: scale(1.3);
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #FFFFFF;
+    word-spacing: 18px;
+    margin: 244px auto 0px;
+    width: 52.34%;
+    letter-spacing: 9px;
+}
+
+.under-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin: 0 auto 25px;
+    word-spacing: 10px;
+    width: 38.8%;
+    letter-spacing: 4px;
+}
+
+.btn {
+    width: 166px;
+    background: #00A185;
+    border: none;
+    border-radius: 3px;
+    padding-left: 32.5px;
+    color: #FFFFFF;
+    height: 50px;
+    outline: none;
+    margin: 0 auto 222px;
+    display: flex;
+    align-items: center;
+    transition: .6s;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #00A185;
+    transform: scale(1.2);
+}
+
+.link {
+    margin: 0 auto;
+    width: 98px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-icon {
+    transition: .8s;
+}
+
+.link-icon:hover {
+    transform: scale(1.3);
+}
+
+.link a {
+    text-decoration: none;
+}
+
+
+/*=====Main=============
+======================*/
+
+.main {
+    width: 100%;
+    height: 63.87vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.simple-photo {
+    width: 95%;
+    height: 51vh;
+    background: url(../img/iphone.png) no-repeat;
+    margin: 0 auto;
+}
+
+.photo-title {
+    font-weight: bold;
+    font-size: 20px;
+    color: #00A185;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+}
+
+.under-title-text {
+    font-weight: 500;
+    font-size: 12px;
+    color: #343434;
+    word-spacing: 8px;
+    margin: 40px 0;
+    letter-spacing: 2px;
+}
+
+.btn-2 {
+    width: 166px;
+    background: #00A185;
+    border: none;
+    border-radius: 3px;
+    padding: 0 22.5px;
+    font-weight: bold;
+    font-size: 12px;
+    color: #FFFFFF;
+    height: 50px;
+    letter-spacing: 2px;
+    transition: .6s;
+    outline: none;
+}
+
+.btn-2:hover {
+    transform: scale(1.2);
+}
+
+.design {
+    width: 95%;
+    height: 72.15vh;
+    margin: 0 auto 43px;
+    background: url(../img/design-photo.png) no-repeat 100%;
+}
+
+.design-text {
+    width: 38.88%;
+    float: right;
+    padding-right: 5px;
+}
+
+.design-title {
+    font-weight: bold;
+    font-size: 20px;
+    color: #00A185;
+    word-spacing: 1px;
+    display: flex;
+    text-align: center;
+    margin-top: 124px;
+    letter-spacing: 3px;
+}
+
+.under-design-text {
+    font-weight: 500;
+    font-size: 12px;
+    color: #343434;
+    word-spacing: 8px;
+    margin: 40px 0;
+    letter-spacing: 2px;
+}
+
+.btn-3 {
+    width: 166px;
+    background: #00A185;
+    border: none;
+    border-radius: 3px;
+    padding: 0 22.5px;
+    font-weight: bold;
+    font-size: 12px;
+    color: #FFFFFF;
+    height: 50px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 12px;
+    transition: .6s;
+}
+
+.btn-3:hover {
+    transform: scale(1.2);
+}
+
+.photoset {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.greencamera {
+    height: 59px;
+    margin: 45px auto 27px;
+    display: flex;
+}
+
+.photopng {
+    width: 763px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.ourcommun {
+    width: 174px;
+    margin: 0 auto;
+}
+
+.com {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.under-com {
+    text-align: center;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.back-email {
+    background: url(../img/email.png) no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    width: 100%;
+    margin: 120px 0 90px;
+}
+
+.check {
+    background: #00A185;
+    border: none;
+    width: 60px;
+    height: 63px;
+    outline: none;
+    cursor: pointer;
+}
+
+.form-email {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    height: 100vh
+}
+
+.email {
+    width: 303px;
+    height: 63px;
+    border: none;
+    outline: none;
+    padding: 0 22px;
+    float: left;
+}
+
+.subscribe-email {
+    color: #fff;
+    margin: 0 auto;
+    word-spacing: 7px;
+    font-weight: bold;
+    font-size: 24px;
+    float: left;
+}
+
+.email-btn {
+    display: flex;
+    width: 79%;
+    margin: 0 auto;
+}
+
+.subscribe {
+    margin-bottom: 25px;
+    letter-spacing: 4px;
+}
+
+.donwload {
+    margin: 0 auto;
+}
+
+.donwload-title {
+    font-weight: bold;
+    font-size: 20px;
+    word-spacing: 11px;
+    margin: 0 auto 10px;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.donwload-text {
+    font-size: 12px;
+    word-spacing: 8px;
+    margin: 0 auto 47px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.btn-donwload {
+    display: flex;
+    width: 636px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.dwl {
+    width: 240px;
+    height: 56px;
+    background: #00BD9C;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.btn-link {
+    width: 56px;
+    height: 56px;
+    border: none;
+    outline: none;
+    background: #00A185;
+    cursor: pointer;
+}
+
+.btn-android {
+    display: flex;
+}
+
+.btn-apple {
+    display: flex;
+}
+
+.links {
+    margin: 160px 0 25px;
+}
+
+.pole {
+    color: #00A185;
+    text-decoration: none;
+    outline: none;
+    display: inline;
+    word-spacing: 4px;
+}
+
+.credits {
+    display: inline;
+    font-size: 14px;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.footer-img {
+    padding-top: 125px;
+    float: right;
+}
